@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterAgentThought": [
+      { "command": ".cursor/hooks/bj-thought-probe.py", "timeout": 10 }
+    ],
+    "afterAgentResponse": [
+      { "command": ".cursor/hooks/bj-thought-probe.py", "timeout": 10 }
+    ]
+  }
+}
